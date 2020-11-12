@@ -1,0 +1,141 @@
+body{
+    font-family: Elena, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
+}
+
+/* Nav bar */
+nav {
+    background-color: #d33a2c;
+    color: white;
+    display: flex;
+    padding: 27px 43px 0 43px;
+    flex-direction: wrap;
+}
+
+.logo{
+    width: 93%;
+    height: auto;
+}
+
+.nav-options{
+    margin: 0 30px;
+    display:flex;
+    align-items: baseline;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, .3);
+}
+
+.nav-options > p {
+    margin-right: 41px;
+    margin-bottom: 0;
+}
+
+.nav-cat{
+    display:flex;
+    background-color: #a92e23;
+    padding: 13px 0 13px 13px;
+    border-radius: 15px;
+}
+
+.nav-cat p{
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.cat-icon{
+    width: 30%;
+    height: auto;
+}
+
+.nav-div-input{
+    position: relative;
+    margin-left: 15px;
+}
+
+.nav-input{
+    padding: 15px 55px 15px 55px;
+    border:none;
+    border-radius: 10px;
+}
+
+.nav-input[type="text"],.nav-input::placeholder{
+    font-size: 23px;
+    width: 350px;
+    font-weight: 700;
+}
+
+.nav-input::placeholder{
+    color:#666;
+}
+
+.nav-input[type="text"]:focus{
+    border:none;
+    border-style: dotted;
+}
+
+.fa-search, .fa-times{
+    position:absolute;
+    color:#e93922;
+    font-size: 25px;
+}
+
+.fa-search{
+    left: 20px;
+    top: 17px;
+}
+
+.fa-times{
+    right:20px;
+    top:17px;
+}
+
+/* Main */
+main{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.red1{
+    background-color: #bc3428;
+}
+
+.red2{
+    background-color: #c7372a;
+}
+
+.red3{
+    background-color: #b13125;
+}
+
+.red4{
+    background-color: #bc3428;
+}
+
+.red-article{
+    color:white;
+    width:50%;
+    padding: 220px 85px 60px 85px;
+}
+
+.img-auth-redarticle{
+    width: 80px;
+    height: auto;
+    border: 4.5px solid white;
+    border-radius: 5px;
+}
+
+.ra-profile{
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.ra-author{
+    margin: 15px 5px 0 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.ra-wrote{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+}
