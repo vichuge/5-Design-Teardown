@@ -139,3 +139,11 @@ main{
     font-weight: 400;
     font-style: italic;
 }
+.red-article-title1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.fasfa-comment-alt {
+    width: 2px;
+    height: 2px;
+}
