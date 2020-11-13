@@ -123,27 +123,39 @@ main{
     border-radius: 5px;
 }
 
-.ra-profile{
+.ra-profile {
     display:flex;
     margin-bottom: 30px;
 }
 
-.ra-author{
+.ra-author {
     margin: 15px 5px 0 15px;
     font-size: 20px;
     font-weight: 800;
 }
 
-.ra-wrote{
+.ra-wrote {
     font-size: 17px;
     font-weight: 400;
     font-style: italic;
 }
+
 .red-article-title1 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
 }
-.fasfa-comment-alt {
+
+.fa-comment-alt i {
     width: 2px;
     height: 2px;
+}
+
+.hashtags p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red-article-title2 {
+    font-size: 40px;
+    font-weight: bold;
 }
