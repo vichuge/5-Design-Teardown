@@ -185,3 +185,25 @@ sup{
     vertical-align: super;
     font-size: 12px;
 }
+.latest-post {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 50px;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.days {
+    font-size: 14px;
+    font-weight: lighter;
+    color: gray;
+    font-family: times 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+.latest-post-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 35px;
+}
