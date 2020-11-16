@@ -10,7 +10,7 @@ img {
 
 /* Nav bar */
 nav {
-    background-color: #d33a2c;
+    background-color: #7a7676;
     color: white;
     display: flex;
     padding: 27px 43px 0 43px;
@@ -38,7 +38,7 @@ nav {
 
 .nav-cat {
     display: flex;
-    background-color: #a92e23;
+    background-color: #2b2929;
     padding: 13px 0 13px 13px;
     border-radius: 15px;
 }
@@ -72,7 +72,7 @@ nav {
 }
 
 .nav-input::placeholder {
-    color: #666;
+    color: rgb(44, 43, 43);
 }
 
 .nav-input[type="text"]:focus {
@@ -83,7 +83,7 @@ nav {
 .fa-search,
 .fa-times {
     position: absolute;
-    color: #e93922;
+    color: #22201f;
     font-size: 25px;
 }
 
@@ -104,19 +104,19 @@ main {
 }
 
 .red1 {
-    background-color: #bc3428;
+    background-color: #3b3838;
 }
 
 .red2 {
-    background-color: #c7372a;
+    background-color: #575251;
 }
 
 .red3 {
-    background-color: #b13125;
+    background-color: #312c2c;
 }
 
 .red4 {
-    background-color: #bc3428;
+    background-color:  #3b3838;
 }
 
 .red-article {
@@ -180,7 +180,7 @@ main {
 
 .hash {
     font-style: italic;
-    color: #6a1d15;
+    color: #0c0c0c;
     margin-right: 5px;
 }
 
@@ -259,11 +259,18 @@ sup {
 
 .blue-container {
     display: grid;
-    background-color: rgb(80, 67, 67);
+    background-color: rgb(88, 85, 85);
     justify-content: center;
     color: white;
     font-size: 30px;
     padding: 40px 400px;
+}
+.small-button {
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
+    font-size: 20px;
 }
 
 .blue-container>* {
@@ -274,6 +281,7 @@ sup {
     font-weight: bold;
 }
 
+
 /* Articles */
 
 .small-profile {
@@ -281,7 +289,7 @@ sup {
     grid-template-columns: repeat(2, 1fr);
     margin: 90px;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: rgb(90, 87, 87);
     grid-gap: 70px;
 }
 
@@ -370,6 +378,7 @@ sup {
     height: 90px;
     font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
     font-size: 20px;
+    border-radius: 8px;
 }
 
 .last-box {
@@ -425,7 +434,7 @@ sup {
 }
 
 .last-last-container-img {
-    width: 600px;
+    width: 90%;
     height: auto;
 }
 
@@ -470,4 +479,11 @@ footer{
 
 .footer-ul {
     list-style-type: disc;
+    list-style-type: circle; 
 }
+.footer-options p {
+    text-decoration: underline;
+}
+.footer-ul li::before { 
+    content: '•'; 
+} 
