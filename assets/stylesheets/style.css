@@ -231,6 +231,8 @@ sup {
 }
 
 .lp-footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
     margin-top: 120px;
     display: grid;
     justify-content: center;
@@ -252,3 +254,30 @@ sup {
 .lp-p2-cat{
     margin-top: 20px;
 }
+
+.blue-container {
+    display: grid;
+    background-color: rgb(80, 67, 67);
+    justify-content: center;   
+    color: white;
+    font-size: 30px;
+    padding: 40px 400px;
+}
+
+.blue-container >* {
+    justify-self: center;
+}
+
+.blue-container h1 {
+    font-weight: bold;
+}
+
+.small-profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile {
+    grid-column: 1/ -1;
+}
+
