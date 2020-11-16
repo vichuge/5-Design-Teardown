@@ -464,5 +464,10 @@ footer{
     text-transform: uppercase;
 }
 
-.footer-ul{
+.footer-ul >li{
+    display: inline; 
+}
+
+.footer-ul {
+    list-style-type: disc;
 }
