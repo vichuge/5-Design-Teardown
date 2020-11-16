@@ -448,3 +448,21 @@ sup {
     margin: 30px 130px;
     padding: 15px;
 }
+
+footer{
+    background-color: gray;
+    display:grid;
+    text-align: center;
+    padding: 70px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-p1{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.footer-ul{
+}
