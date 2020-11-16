@@ -220,17 +220,17 @@ sup {
     margin-bottom: 40px;
 }
 
-.lp-smashing-members{
+.lp-smashing-members {
     padding: 0 60px;
     border: 1px solid black;
     border-radius: 5px;
     grid-column: span 2;
     background-color: #666;
-    display:grid;
+    display: grid;
     justify-items: center;
 }
 
-.lp-footer{
+.lp-footer {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     margin-top: 120px;
@@ -239,32 +239,34 @@ sup {
     grid-column: 1 / -1;
 }
 
-.lp-img-cat{
+.lp-img-cat {
     margin-top: 30px;
 }
 
-.lp-h-cat{
+.lp-h-cat {
     margin-top: 30px;
 }
 
-.lp-p-cat{
+.lp-p-cat {
     margin-top: 45px;
 }
 
-.lp-p2-cat{
+.lp-p2-cat {
     margin-top: 20px;
 }
+
+/* Blue container */
 
 .blue-container {
     display: grid;
     background-color: rgb(80, 67, 67);
-    justify-content: center;   
+    justify-content: center;
     color: white;
     font-size: 30px;
     padding: 40px 400px;
 }
 
-.blue-container >* {
+.blue-container>* {
     justify-self: center;
 }
 
@@ -272,12 +274,93 @@ sup {
     font-weight: bold;
 }
 
+/* Articles */
+
 .small-profile {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    grid-gap: 70px;
 }
 
 .profile {
     grid-column: 1/ -1;
 }
 
+.profile,
+.sp-article {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 30px;
+}
+
+.sm-img {
+    border: 4.5px solid gray;
+    border-radius: 5px;
+}
+
+.h1-sm-text,
+.h2-sm-text-article {
+    font-size: 25px;
+}
+
+.p-sm-text {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.sm-img-article {
+    width: 60px;
+    height: auto;
+    border: 4.5px solid gray;
+    border-radius: 5px;
+}
+
+.h1-sm-text-article {
+    font-size: 20px;
+}
+
+.h2-sm-text-article {
+    margin-bottom: 25px;
+}
+
+.p-sm-text-article {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.p-sm-text-article-span {
+    font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
+    color: gray;
+}
+
+.s-book{
+    background-color: gray;
+    display:flex;
+    padding: 70px 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.s-book-right-img{
+    width:323px;
+    height: auto;
+}
+
+.s-book-left-p1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.s-book-left-h1{
+    font-size: 40px;
+    font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.s-book-left-p2{
+    font-size: 25px;
+    
+}
