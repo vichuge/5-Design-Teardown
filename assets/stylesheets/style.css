@@ -1,7 +1,12 @@
-body{
+body {
     font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
     font-weight: 100;
 }
+
+img {
+    filter: grayscale(100%);
+}
+
 
 /* Nav bar */
 nav {
@@ -12,113 +17,116 @@ nav {
     flex-direction: wrap;
 }
 
-.logo{
+.logo {
     width: 93%;
     height: auto;
 }
 
-.nav-options{
+.nav-options {
     margin: 0 30px;
-    display:flex;
+    display: flex;
     align-items: baseline;
     font-size: 20px;
     font-weight: 700;
     text-shadow: 2px 3px 5px rgba(0, 0, 0, .3);
 }
 
-.nav-options > p {
+.nav-options>p {
     margin-right: 41px;
     margin-bottom: 0;
 }
 
-.nav-cat{
-    display:flex;
+.nav-cat {
+    display: flex;
     background-color: #a92e23;
     padding: 13px 0 13px 13px;
     border-radius: 15px;
 }
 
-.nav-cat p{
+.nav-cat p {
     margin-bottom: 0;
     margin-right: 10px;
 }
-.cat-icon{
+
+.cat-icon {
     width: 30%;
     height: auto;
 }
 
-.nav-div-input{
+.nav-div-input {
     position: relative;
     margin-left: 15px;
 }
 
-.nav-input{
+.nav-input {
     padding: 15px 55px 15px 55px;
-    border:none;
+    border: none;
     border-radius: 10px;
 }
 
-.nav-input[type="text"],.nav-input::placeholder{
+.nav-input[type="text"],
+.nav-input::placeholder {
     font-size: 23px;
     width: 350px;
     font-weight: 700;
 }
 
-.nav-input::placeholder{
-    color:#666;
+.nav-input::placeholder {
+    color: #666;
 }
 
-.nav-input[type="text"]:focus{
-    border:none;
+.nav-input[type="text"]:focus {
+    border: none;
     border-style: dotted;
 }
 
-.fa-search, .fa-times{
-    position:absolute;
-    color:#e93922;
+.fa-search,
+.fa-times {
+    position: absolute;
+    color: #e93922;
     font-size: 25px;
 }
 
-.fa-search{
+.fa-search {
     left: 20px;
     top: 17px;
 }
 
-.fa-times{
-    right:20px;
-    top:17px;
+.fa-times {
+    right: 20px;
+    top: 17px;
 }
 
 /* Main */
-main{
-    display:flex;
-    flex-wrap:wrap;
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.red1{
+.red1 {
     background-color: #bc3428;
 }
 
-.red2{
+.red2 {
     background-color: #c7372a;
 }
 
-.red3{
+.red3 {
     background-color: #b13125;
 }
 
-.red4{
+.red4 {
     background-color: #bc3428;
 }
 
-.red-article{
+.red-article {
     /*position: relative;*/
-    color:white;
-    width:50%;
+    color: white;
+    width: 50%;
     padding: 220px 85px 60px 85px;
 }
 
-.img-auth-redarticle{
+.img-auth-redarticle {
     width: 80px;
     height: auto;
     border: 4.5px solid white;
@@ -126,7 +134,7 @@ main{
 }
 
 .ra-profile {
-    display:flex;
+    display: flex;
     margin-bottom: 30px;
 }
 
@@ -153,46 +161,46 @@ main{
     height: 2px;
 }
 
-.hashtags > p {
+.hashtags>p {
     font-size: 18px;
     font-weight: bold;
 }
 
-.small-size{
+.small-size {
     font-size: 18px;
 }
 
-.hashtags{
-    display:flex;
+.hashtags {
+    display: flex;
 }
 
-.hashtag{
+.hashtag {
     margin-right: 10px;
 }
 
-.hash{
-    font-style:italic;
-    color:#6a1d15;
+.hash {
+    font-style: italic;
+    color: #6a1d15;
     margin-right: 5px;
 }
 
-.hash-number{
+.hash-number {
     font-size: 10px;
 }
 
-sup{
+sup {
     margin-left: 5px;
     vertical-align: super;
     font-size: 12px;
 }
+
 .latest-post {
     display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px;
-    margin-top: 60px;
-    margin-bottom:60px;
+    margin: 60px;
 }
+
 .days {
     font-size: 14px;
     font-weight: lighter;
@@ -206,4 +214,41 @@ sup{
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 35px;
+}
+
+.lp-author {
+    margin-bottom: 40px;
+}
+
+.lp-smashing-members{
+    padding: 0 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    background-color: #666;
+    display:grid;
+    justify-items: center;
+}
+
+.lp-footer{
+    margin-top: 120px;
+    display: grid;
+    justify-content: center;
+    grid-column: 1 / -1;
+}
+
+.lp-img-cat{
+    margin-top: 30px;
+}
+
+.lp-h-cat{
+    margin-top: 30px;
+}
+
+.lp-p-cat{
+    margin-top: 45px;
+}
+
+.lp-p2-cat{
+    margin-top: 20px;
 }
