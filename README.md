@@ -1,2 +1,48 @@
-# 5-Design-Teardown
-This project consists of building a heatmap of the Smashing magazine website
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Design Teardown
+
+> This project consists of building a heatmap of the Smashing magazine website.
+
+![screenshot](./assets/img/Screenshot.png)
+
+## Built With
+
+- HTML 5
+- CSS 3
+
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/vichuge/5-Design-Teardown/feature/index.html)
+
+
+## Getting Started
+
+- Clone or download this project on your computer
+- Open it with your favorite browser
+
+## Authors
+
+👤 **Victor Pacheco**
+
+- GitHub: [@vichuge](https://github.com/vichuge)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
+
+👤 **Angela Cuahutle**
+
+- GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/vichuge/5-Design-Teardown/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://github.com/vichuge/5-Design-Teardown/blob/main/LICENSE) licensed.
