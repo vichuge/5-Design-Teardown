@@ -26,7 +26,6 @@ nav {
   align-items: baseline;
   font-size: 20px;
   font-weight: 700;
-  text-shadow: 2px 3px 5px rgba(0, 0, 0, .3);
 }
 
 .nav-options > p {
@@ -202,7 +201,7 @@ sup {
   font-size: 14px;
   font-weight: lighter;
   color: gray;
-  font-family: times 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 15px;
 }
 
