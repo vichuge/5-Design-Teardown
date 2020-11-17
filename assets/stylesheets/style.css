@@ -271,6 +271,7 @@ sup {
     border-radius: 8px;
     font-family: 'Balsamiq Sans', cursive, Arial, -apple-system, BlinkMacSystemFont, roboto slab, droid serif, segoe ui, Ubuntu, Cantarell, Georgia, sans-serif;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .blue-container>* {
@@ -473,17 +474,30 @@ footer{
     text-transform: uppercase;
 }
 
-.footer-ul >li{
+.footer-p2{
+    margin-top: 60px;
+}
+
+.footer-p2, .footer-p3, .footer-ul2{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.footer-ul >li , .footer-ul2 >li{
     display: inline; 
 }
 
-.footer-ul {
+.footer-ul, .footer-ul2 {
     list-style-type: disc;
     list-style-type: circle; 
 }
-.footer-options p {
-    text-decoration: underline;
-}
+
 .footer-ul li::before { 
     content: '•'; 
-} 
+}
+
+.footer-ul2 >li{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: underline;
+}
