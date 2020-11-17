@@ -4,7 +4,7 @@
 
 > This project consists of building a heatmap of the Smashing magazine website.
 
-![screenshot](./assets/img/apple_page.png)
+![screenshot](./assets/img/Screenshot.png)
 
 ## Built With
 

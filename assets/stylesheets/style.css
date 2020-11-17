@@ -116,7 +116,7 @@ main {
 }
 
 .red4 {
-    background-color:  #3b3838;
+    background-color: #3b3838;
 }
 
 .red-article {
@@ -265,6 +265,7 @@ sup {
     font-size: 30px;
     padding: 40px 400px;
 }
+
 .small-button {
     height: 60px;
     width: 300px;
@@ -445,58 +446,63 @@ sup {
     font-size: 18px;
 }
 
-.last-last-container-input, .last-last-container-button {
+.last-last-container-input,
+.last-last-container-button {
     font-size: 20px;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 
-.last-last-container-p2{
+.last-last-container-p2 {
     border: 1px solid gray;
     border-radius: 5px;
     margin: 30px 130px;
     padding: 15px;
 }
 
-footer{
+footer {
     background-color: gray;
-    display:grid;
+    display: grid;
     text-align: center;
     padding: 70px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.footer-p1{
+.footer-p1 {
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
 }
 
-.footer-p2{
+.footer-p2 {
     margin-top: 60px;
 }
 
-.footer-p2, .footer-p3, .footer-ul2{
+.footer-p2,
+.footer-p3,
+.footer-ul2 {
     margin-left: 120px;
     margin-right: 120px;
 }
 
-.footer-ul >li , .footer-ul2 >li{
-    display: inline; 
+.footer-ul>li,
+.footer-ul2>li {
+    display: inline;
 }
 
-.footer-ul, .footer-ul2 {
+.footer-ul,
+.footer-ul2 {
     list-style-type: disc;
-    list-style-type: circle; 
+    list-style-type: circle;
 }
 
-.footer-ul li::before { 
-    content: '•'; 
+.footer-ul li::before {
+    content: '•';
 }
 
-.footer-ul2 >li{
+.footer-ul2 > li {
     margin-left: 5px;
     margin-right: 5px;
     text-decoration: underline;
