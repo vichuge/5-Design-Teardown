@@ -32,7 +32,6 @@
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
 - Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
-- LinkedIn: [LinkedIn]()
 
 ## 🤝 Contributing
 
