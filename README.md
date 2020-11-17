@@ -31,8 +31,8 @@
 👤 **Angela Cuahutle**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
-- Twitter: [@marylirulita](https://twitter.com/marylirulita)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mar-y-sol-bautista-alvarez-5a6894151/)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
+- LinkedIn: [LinkedIn]()
 
 ## 🤝 Contributing
 
