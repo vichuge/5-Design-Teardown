@@ -7,14 +7,12 @@ img {
   filter: grayscale(100%);
 }
 
-
 /* Nav bar */
 nav {
   background-color: #7a7676;
   color: white;
   display: flex;
   padding: 27px 43px 0 43px;
-  flex-direction: wrap;
 }
 
 .logo {
@@ -120,7 +118,6 @@ main {
 }
 
 .red-article {
-  /*position: relative;*/
   color: white;
   width: 50%;
   padding: 220px 85px 60px 85px;
@@ -256,7 +253,6 @@ sup {
 }
 
 /* Blue container */
-
 .blue-container {
   display: grid;
   background-color: rgb(88, 85, 85);
@@ -283,9 +279,7 @@ sup {
   font-weight: bold;
 }
 
-
 /* Articles */
-
 .small-profile {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
